@@ -1,6 +1,5 @@
 import React from 'react';
 
-import { SearchInput } from '../MobileHeader/styles';
 
 import { 
   Container,
@@ -9,7 +8,9 @@ import {
   SearchInput,
   HomeIcon,
   NotificationIcon,
+  ProfileCircle,
   CaretDownIcon,
+  
 } from './styles';
 
 const DesktopHeader: React.FC = () => {
@@ -37,7 +38,7 @@ const DesktopHeader: React.FC = () => {
               </span>
             </button>
             <button>
-            <ProfileCircle src="https://avatars.githubusercontent.com/u/48796830?v=4" />
+            <ProfileCircle />
               <span>
                 Eu <CaretDownIcon />
               </span>
