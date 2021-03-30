@@ -49,6 +49,6 @@ const DesktopHeader: React.FC = () => {
       </Wrapper>
     </Container>
   );
-}
+};
 
 export default DesktopHeader;

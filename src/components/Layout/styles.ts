@@ -6,7 +6,7 @@ export const Container = styled.div`
 
   @media (min-width: 1180px) {
       > main {
-          margin:0 30%;
+          margin:0 30px;
           display: flex;
           justify-content: center;
       }
@@ -24,7 +24,7 @@ export const Container = styled.div`
       }
 
       .middle-column {
-          margin: 0 25px 0;
+          margin: 0 25px 16px;
       }
   }
 `;

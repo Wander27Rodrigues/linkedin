@@ -17,9 +17,9 @@ export const Container = styled.div`
     right: 0;
     z-index: 2;
 
-    @media (min-width: 1180px) {
-        diplay: none;
-    }
+   @media (min-width: 1180px) {
+       display: none;
+   }
 
 
 `;
@@ -54,7 +54,7 @@ export const MessageIcon = styled(FiMessageSquare)`
     height: 24px;
     width: 24px;
     color: var(--color-white);
-    border-radius:4px;
+    border-radius: 4px;
     flex-shrink: 0;
 
     margin-left: 17px;

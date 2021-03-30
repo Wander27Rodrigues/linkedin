@@ -2,19 +2,21 @@
 
 import React from 'react';
 
-import DesktopHeader from '../DesktopHeader'
+
 import MobileHeader from '../MobileHeader';
 import LeftColumn from '../LeftColumn';
 import MiddleColumn from '../MiddleColumn';
 import RightColumn from '../RightColumn';
 
 import { Container } from './styles';
+import DesktopHeader from '../DesktopHeader';
 
 const layout:React.FC = () => {
   return(
       <Container>
-        <MobileHeader />
         <DesktopHeader />
+        <MobileHeader />
+        
 
           <main>
             <LeftColumn />
